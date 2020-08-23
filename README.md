@@ -3,19 +3,23 @@
 Annex A: Index of the MATLAB files
 
 Projection Method – Annex B
+
 Projection (The main algorithm)
 Projection_LP (The algorithm producing the longer path)
 plot_circle
 
 Tangent Method – Annex C
+
 Tangent (The main algorithm)
 plot_circle
 
 Parallel Method – Annex D
+
 Parallel (The main algorithm)
 plot_circle
 
 Segment Method – Annex E
+
 check_intersection
 plot_circle
 plot_obstacles
@@ -27,6 +31,7 @@ vessel_find_path
 vessel_fun
 
 Segment Method Virtual – Annex F
+
 check_intersection
 find_route
 plot_circle
