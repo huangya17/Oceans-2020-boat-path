@@ -1,64 +1,32 @@
 # Oceans-2020-boat-path
 
-Annex A: Index of the MATLAB files
+Put all files in one folder and run the main method *.mlx files one at a time.  
 
+Projection Method (single obstacle):
+- Projection.mlx
+- plot_circle.m
 
-Projection Method – Annex B
+Tangent Method (single obstacle):
+- Tangent.mlx 
+- plot_circle.m
 
-- Projection (The main algorithm)
+Parallel Method (multiple obstacles):
+- Parallel.mlx
+- plot_circle.m
 
-- Projection_LP (The algorithm producing the longer path)
+Segment Method (multiple obstacles):
+- Segment.mlx
+- plot_circle.m
+- plot_obstacles.m
+- check_intersection.m
+- vessel_find_path.m
+- vessel_fun.m
 
-- plot_circle
-
-
-Tangent Method – Annex C
-
-- Tangent (The main algorithm)
-
-- plot_circle
-
-
-Parallel Method – Annex D
-
-- Parallel (The main algorithm)
-
-- plot_circle
-
-
-Segment Method – Annex E
-
-- check_intersection
-
-- plot_circle
-
-- plot_obstacles
-
-- Segment (The main algorithm)
-
-- Segment_NoPrint (The main algorithm printing only the shortest and optimized paths)
-
-- Segment_Order (This algorithm is avoiding the obstacles using the order they are given in the obstacle array)
-
-- Segment_Random (The algorithm is avoiding the obstacles using a random order)
-
-- vessel_find_path
-
-- vessel_fun
-
-
-Segment Method Virtual – Annex F
-
-- check_intersection
-
-- find_route
-
-- plot_circle
-
-- plot_obstacles
-
-- Segment_Virtual (The main algorithm with the addition of the virtual waypoint functionality)
-
-- vessel_find_path
-
-- vessel_fun
+Segment Method Virtual (multiple obstacles):
+- Segment_Virtual.mlx
+- plot_circle.m
+- plot_obstacles.m
+- check_intersection.m
+- vessel_find_path.m
+- vessel_fun.m
+- find_route.m
